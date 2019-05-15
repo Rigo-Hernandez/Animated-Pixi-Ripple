@@ -1,12 +1,16 @@
 # Animated-Pixi-Ripple
-
+An animated ocean ripple effect using PixiJS 
 
 
 
 ## Usage
 
 ```PixiJS
-
+        function animate() {
+            displacementSprite.x += 10;
+            displacementSprite.y += 4;
+            requestAnimationFrame(animate);
+        }
 
 ```
 
